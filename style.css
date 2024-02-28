@@ -58,3 +58,37 @@
 .image-container p {
   color: white;
 }
+.body h1 {
+  display: flex;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 3px solid blue;
+  border-radius: 7px;
+}
+
+.words {
+  display: flex;
+  gap: 87px;
+  justify-content: center;
+}
+.text1,
+.text2,
+.text3,
+.text4 {
+  color: gray;
+  word-wrap: break-word;
+  width: 100px;
+  text-align: center;
+}
