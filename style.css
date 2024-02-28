@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -91,4 +96,8 @@
   word-wrap: break-word;
   width: 100px;
   text-align: center;
+}
+
+.quote {
+  background-color: gray;
 }
