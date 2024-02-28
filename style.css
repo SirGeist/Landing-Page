@@ -33,6 +33,13 @@
 }
 .header-left-info button {
   margin-bottom: 75px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  min-height: 30px;
+  min-width: 100px;
 }
 
 .image-container {
@@ -43,4 +50,11 @@
   align-self: center;
   margin-top: 100px;
   margin-right: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container p {
+  color: white;
 }
