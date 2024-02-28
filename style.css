@@ -108,7 +108,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  /* margin-top: 50px; */
 }
 
 .quote {
@@ -127,4 +126,30 @@ body {
   right: 25%;
   margin: 10px;
   font-size: 12px;
+}
+
+.register-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.register-container {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.register-title {
+  color: white;
+}
+
+.register-container button {
+  height: 50px;
+  width: 50px;
 }
